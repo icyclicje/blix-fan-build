@@ -1,0 +1,14 @@
+{
+  "name": "game-player",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plays one HTML5 game (a folder or a .zip) full-screen with no other UI. Zero dependencies, Railway-ready.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node server.js --prepare"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
